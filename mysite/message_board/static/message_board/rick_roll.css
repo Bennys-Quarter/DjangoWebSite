@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  background-color:lighten($baseColor, 30%);
+  undefined:undefined;
+}
+.clearfix{
+  clear:both;
+}
+.header-banner{
+  padding-top:35px;
+  padding-bottom:100px;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+  background-attachment:scroll, scroll;
+  background-position:left top, center center;
+  background-repeat:repeat-y, no-repeat;
+  background-size:contain, cover;
+}
+.container-width{
+  width:90%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.logo-container{
+  float:left;
+  width:50%;
+}
+.logo{
+  background-color:#fff;
+  border-radius:5px;
+  width:130px;
+  padding:10px;
+  min-height:30px;
+  text-align:center;
+  line-height:30px;
+  color:#4d114f;
+  font-size:23px;
+}
+.lead-title{
+  margin:150px 0 30px 0;
+  font-size:40px;
+}
+.sub-lead-title{
+  max-width:650px;
+  line-height:30px;
+  margin-bottom:30px;
+  color:#c6c6c6;
+}
+.lead-btn{
+  margin-top:15px;
+  padding:10px;
+  width:190px;
+  min-height:30px;
+  font-size:20px;
+  text-align:center;
+  letter-spacing:3px;
+  line-height:30px;
+  background-color:#d983a6;
+  border-radius:5px;
+  transition:all 0.5s ease;
+  cursor:pointer;
+}
+.lead-btn:hover{
+  background-color:#ffffff;
+  color:#4c114e;
+}
+.lead-btn:active{
+  background-color:#4d114f;
+  color:#fff;
+}
+.flex-sect{
+  background-color:#fafafa;
+  padding:100px 0;
+  font-family:Helvetica, serif;
+}
+.flex-title{
+  margin-bottom:15px;
+  font-size:2em;
+  text-align:center;
+  font-weight:700;
+  color:#555;
+  padding:5px;
+}
+.cards{
+  padding:20px 0;
+  display:flex;
+  justify-content:space-around;
+  flex-flow:wrap;
+}
+.footer-under{
+  background-color:#312833;
+  padding-bottom:100px;
+  padding-top:100px;
+  min-height:500px;
+  color:#eee;
+  position:relative;
+  font-weight:100;
+  font-family:Helvetica,serif;
+}
+.copyright{
+  background-color:rgba(0, 0, 0, 0.15);
+  color:rgba(238, 238, 238, 0.5);
+  bottom:0;
+  padding:1em 0;
+  position:absolute;
+  width:100%;
+  font-size:0.75em;
+}
+.made-with{
+  float:left;
+  width:50%;
+  padding:5px 0;
+}
+.foot-social-btns{
+  display:none;
+  float:right;
+  width:50%;
+  text-align:right;
+  padding:5px 0;
+}
+.footer-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:stretch;
+  justify-content:space-around;
+}
+.gjs-row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.gjs-cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#iawnn{
+  width:100%;
+  margin:0 0 0 0;
+}
+#it0cy{
+  margin:30px 0 30px 0;
+}
+#ivwo{
+  width:100%;
+  position:static;
+}
+table{
+  font-family:arial, sans-serif;
+  border-collapse:collapse;
+  width:100%;
+  undefined:undefined;
+}
+td, th{
+  border:1px solid #dddddd;
+  text-align:left;
+  padding:8px;
+}
+tr:nth-child(even){
+  background-color:#dddddd;
+}
+#ibic9i{
+  min-height:200px;
+}
+div.table-responsive{
+  background:yellow;
+  width:100% !important;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  -ms-overflow-style:-ms-autohiding-scrollbar;
+}
+div.table-responsive > div.dataTables_wrapper > div.row{
+  margin:0;
+}
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child, div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child{
+  padding-left:0;
+  padding-right:0;
+}
+img{
+  border-radius:50%;
+  height:$imageSmall;
+  width:$imageSmall;
+}
+#i9cyk{
+  border:0px none black;
+}
+#i5nd3{
+  height:500px;
+  width:100%;
+}
+#i3dmw{
+  width:100%;
+  height:100%;
+}
+@media fadeEffect{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@media (max-width: 768px){
+  .gjs-row{
+    flex-wrap:wrap;
+  }
+}
+@media screen and (max-width: 700px){
+  table, tr, td{
+    display:block;
+  }
+  td{
+    undefined:undefined;
+  }
+  tr{
+    padding:$padding 0;
+    position:relative;
+    undefined:undefined;
+  }
+}
+@media screen and (max-width: 500px){
+  img{
+    border:3px solid;
+    border-color:lighten($baseColor, 50%);
+    height:$imageBig;
+    margin:0.5rem 0;
+    width:$imageBig;
+  }
+  td{
+    undefined:undefined;
+  }
+  tr{
+    background-color:white !important;
+    border:1px solid lighten($baseColor, 20%);
+    border-radius:$borderRadius;
+    box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    margin:0.5rem 0;
+    padding:0;
+  }
+}
